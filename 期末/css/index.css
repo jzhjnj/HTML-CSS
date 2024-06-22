@@ -1,0 +1,55 @@
+body {
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #58ae65;
+	border-bottom: none;
+	font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #0099e5;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+section#indresume {
+    width: 100%;
+    padding: 100%;
+}
+section#dessert {
+    width: 100%;
+    padding: 100%;
+}
+section#journey {
+    width: 100%;
+    padding: 100%;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0px 10px 10px 10px;
+    font-size:   90%;
+}

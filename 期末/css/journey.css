@@ -1,0 +1,75 @@
+body{
+	background-image:url(../images/journey/背景.jpg) ;
+}
+
+div img{width: 30%; }
+img#sp {width: 70%;}
+
+nav {
+  background-color: #f0ece3;
+margin: 10px 10px 0px 10px;
+}
+nav ul {
+margin: 0px;
+list-style-type: none;
+padding: 5px 0px 5px 0px;
+}
+nav ul li {
+display: inline;
+padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+color: #5884ae;
+border-bottom: none;
+font-weight: bold;
+}
+nav ul li.selected {
+background-color: #c8b99c;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+div#tableContainer {
+	display: table;
+}
+section#section1 {
+  display: table-cell;
+  background-color: #fffefb;
+  font-size:        105%;
+  width: 70%;
+  padding: 15px;
+  vertical-align: top;
+}
+section#section2 {
+    background-color: #fffefb;
+    width: 100%;
+    padding: 15px;
+}
+section#section3 {
+    background-color: #fffefb;
+    width: 100%;
+    padding: 15px;
+}
+
+aside {
+  display: table-cell;
+  background-color: #fffefb;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0px 10px 10px 10px;
+  font-size:   90%;
+}

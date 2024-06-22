@@ -1,0 +1,55 @@
+body{
+	background-image:url(../images/indresume/背景.jpg) ;
+	background-attachment: fixed;/*背景图片不会固定不会因页面滚动而重复*/
+  background-size:100% 100%;
+}
+
+h1 {
+    color: rgb(29, 255, 232);
+    font-size:       220%;
+    border-bottom:   thin dotted #888888;
+}
+
+table {
+    margin-left:      20px;
+    margin-right:     20px;
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:  collapse;
+  }
+  
+  
+  td, th {
+    border:           thin dotted gray;
+    padding:          5px;
+  }
+  
+  th {
+    background-color: #00a0cc;
+  }
+  
+  .color{
+    background-color: white;
+  }
+
+  .cellcolor {
+    background-color: #7ae2fc;
+  }
+  
+  
+  caption {
+    font-style:       italic;
+    padding-top:      8px;
+  }
+  
+  .center {
+    text-align:       center;
+  }
+  
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0px 10px 10px 10px;
+    font-size:   90%;
+}

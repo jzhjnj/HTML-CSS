@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans-CN">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>jnj's dessert</title>
+    <link rel="stylesheet" type="text/css" href="./css/dessert.css">
+</head>
+
+<body style="background-image:url(./images/desserts/背景.png); background-attachment:fixed ;background-repeat:no-repeat;" >
+    <header class="top">
+        <nav>
+            <ul>
+                <li class="selected"><a href="dessert.html">主页</a></li>
+                <li><a href="#section1">店铺环境</a></li>
+                <li><a href="#section2">甜品体验</a></li>
+                <li><a href="#section3">自助预约</a></li>
+            </ul>
+            </nav>
+    </header>
+    
+    <div id="tableContainer">
+    <section id="section1">
+        <h1>店铺环境</h1>
+        <p>Ling在一个老小区里,店旁边有一颗漂亮的树</p>
+        <p>
+            <img src="./images/desserts/环境1.jpg" alt="店旁的树">
+            <img src="./images/desserts/环境2.jpg" alt="店铺环境">
+        </p>
+        <p>店内的装修很漂亮且有特点</p>
+        <p>
+            <img src="./images/desserts/装修1.jpg" alt="店内装潢">
+            <img src="./images/desserts/装修2.jpg" alt="店内装潢">
+            <img src="./images/desserts/装修3.jpg" alt="店内装潢">
+        </p>
+    </section>
+     
+    <section id="section2">
+        <h1>我的甜品自助体验</h1>
+        <p>Ling的仿真水果好看且好吃</p>
+        <p>
+            <img src="./images/desserts/仿真水果1.jpg" alt="仿真水果1">
+            <img src="./images/desserts/仿真水果2.jpg" alt="仿真水果2">
+        </p>
+        <p>我最喜欢这个开心果车轮泡芙,开心果味很浓郁</p>
+        <p>
+            <img src="./images/desserts/开心果.jpg" alt="开心果">
+        </p>
+        <p>Ling的其他甜点也很好吃,他们的盘子也很好看</p>
+        <p>
+            <img src="./images/desserts/甜品柜1.jpg" alt="甜品柜1">
+            <img src="./images/desserts/甜品柜2.jpg" alt="甜品柜2">
+            <img src="./images/desserts/甜品柜3.jpg" alt="甜品柜3">
+            <img src="./images/desserts/抹茶.jpg" alt="抹茶">
+            <img src="./images/desserts/甜点1.jpg" alt="甜点1">
+            <img src="./images/desserts/甜点2.jpg" alt="甜点2">
+            <img src="./images/desserts/甜点3.jpg" alt="甜点3">
+            <img src="./images/desserts/甜点4.jpg" alt="甜点4">
+        </p>
+    </section>
+
+    <section id="section3">
+        <h1>自助预约</h1>
+        <p>你可以在这里预约Ling的甜点自助</p>
+        <form action="https://jnj.github.io/dessert.php" method="post">
+            <div class="tableRow">
+                <p>
+                  选择你需要的价格档位：
+                </p>
+                <p>
+                    <select name="drades">
+                      <option value="128/sit">128元每位(不含仿真水果)</option>
+                      <option value="168/sit">168每位(含仿真水果)</option>
+                    </select>
+                </p>
+            </div>
+            <div class="tableRow label">
+                <p> 选择预定时间</p>
+                <p> <input type="date" name="date"> </p>
+            </div>
+            <div class="tableRow">
+                <p class="heading"> 个人信息: </p>
+                <p></p>
+            </div>
+            <div class="tableRow">
+                <p> 姓名： </p>
+                <p> <input type="text" name="name" value="" placeholder="void" required> </p>
+            </div>
+            <div class="tableRow">
+                <p> 手机号: </p>
+                <p> <input type="tel" name="phone" value="" placeholder="310-555-1212" required> </p>
+            </div>
+            <div class="tableRow">
+                <p>备注： </p>
+                <p>
+                    <textarea name="comments"></textarea>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p></p>
+                <p> <input type="submit" value="下单"> </p>
+            </div>
+            </form>
+    </section>
+    </div>
+    
+    <div>
+        <a href="./index.html">回到首页</a>
+    </div>
+
+    <footer>
+        <p>版权所有 &copy; 2024 江年姣</p>
+    </footer>
+</body>
+</html>
