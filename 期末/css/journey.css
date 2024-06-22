@@ -3,9 +3,9 @@ body{
 }
 
 div img{width: 30%; }
-img#sp {width: 70%;}
+img#sp {width: 70%;}/*设置特定图片的大小*/
 
-nav {
+nav {/*导航栏*/
   background-color: #f0ece3;
 margin: 10px 10px 0px 10px;
 }
@@ -27,7 +27,7 @@ nav ul li.selected {
 background-color: #c8b99c;
 }
 
-div#tableContainer {
+div#tableContainer {/*凝胶布局*/
 	display: table;
 	border-spacing: 10px;
 }
@@ -58,7 +58,7 @@ section#section3 {
     padding: 15px;
 }
 
-aside {
+aside {/*侧边栏*/
   display: table-cell;
   background-color: #fffefb;
   font-size:        105%;

@@ -28,7 +28,7 @@ nav ul li.selected {
 }
 
 div#tableContainer {
-	display: table;
+	display: table;  /*将多行文字和图片集中显示在一个容器内*/
 }
 section#section1 {
     background-color: #fffefb;
@@ -46,16 +46,16 @@ section#section3 {
     padding: 10px;
 }
 
-div img{width: 30%; }
+div img{width: 30%; } /*限定图片大小*/
 
-form {
+form {/*添加表单*/
 	display: table;
 	padding: 10px;
 	border: thin dotted #7e7e7e;
 	background-color: #e1ceb8;
 }
 
-form textarea {
+form textarea {/*凝胶布局*/
 	width: 500px;
 	height: 200px;
 }

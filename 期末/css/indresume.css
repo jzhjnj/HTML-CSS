@@ -10,7 +10,7 @@ h1 {
     border-bottom:   thin dotted #888888;
 }
 
-table {
+table {/*添加表格*/
     margin-left:      20px;
     margin-right:     20px;
     border:           thin solid black;
@@ -33,7 +33,7 @@ table {
   }
 
   .cellcolor {
-    background-color: #7ae2fc;
+    background-color: #7ae2fc;   /*双色*/
   }
   
   
@@ -42,10 +42,11 @@ table {
     padding-top:      8px;
   }
   
-  .center {
+  .center {/*居中*/
     text-align:       center;
   }
   
+  /*凝胶布局*/
   footer {
     color: white;
     text-align: center;
